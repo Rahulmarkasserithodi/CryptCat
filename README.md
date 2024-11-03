@@ -2,7 +2,7 @@
 
 A sophisticated, educational project to demonstrate password hashing, cracking techniques, and password security. This application showcases the dangers of weak passwords and highlights methods to enhance password security through interactive hashing and cracking features.
 
-![App Preview]()
+![App Preview](https://github.com/Rahulmarkasserithodi/CryptCat/blob/main/public/imgs/Hero.png)
 
 ## 🚀 Project Overview
 
@@ -55,7 +55,7 @@ For cracked passwords, the app suggests three "salted" versions to demonstrate i
 - **S3 Bucket:** Hosts the wordlist for dictionary attacks, accessed securely by Lambda.
 - **CloudWatch:** Monitors Lambda function activity and logs any errors.
 
-![AWS Architecture Diagram](https://link-to-architecture-diagram.com/diagram.png) <!-- Replace with an actual link -->
+![AWS Architecture Diagram]([https://link-to-architecture-diagram.com/diagram.png](https://github.com/Rahulmarkasserithodi/CryptCat/blob/main/public/imgs/AWS.png)) 
 
 ---
 
