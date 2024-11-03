@@ -1,4 +1,4 @@
-# 🔐 Password Cracking Visualizer
+# 🔐 CryptCat: Password Cracking Visualizer
 
 A sophisticated, educational project to demonstrate password hashing, cracking techniques, and password security. This application showcases the dangers of weak passwords and highlights methods to enhance password security through interactive hashing and cracking features.
 
