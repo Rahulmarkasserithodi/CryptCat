@@ -106,7 +106,7 @@ For cracked passwords, the app suggests three "salted" versions to demonstrate i
    Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
 
 ## 🔍 License
-   This project is licensed under the MIT License. See the LICENSE file for more information.
+   This project is licensed under the MIT License. See the [LICENSE](https://github.com/Rahulmarkasserithodi/CryptCat/blob/main/LICENSE) file for more information.
 
 ## 📬 Contact
    For any inquiries or feedback, feel free to reach out at rahul4nair35@gmail.com
