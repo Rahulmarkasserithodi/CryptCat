@@ -55,7 +55,7 @@ For cracked passwords, the app suggests three "salted" versions to demonstrate i
 - **S3 Bucket:** Hosts the wordlist for dictionary attacks, accessed securely by Lambda.
 - **CloudWatch:** Monitors Lambda function activity and logs any errors.
 
-![AWS Architecture Diagram]([https://link-to-architecture-diagram.com/diagram.png](https://github.com/Rahulmarkasserithodi/CryptCat/blob/main/public/imgs/AWS.png)) 
+![AWS Architecture Diagram](https://github.com/Rahulmarkasserithodi/CryptCat/blob/main/public/imgs/AWS.png) 
 
 ---
 
