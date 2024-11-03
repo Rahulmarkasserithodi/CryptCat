@@ -73,3 +73,41 @@ For cracked passwords, the app suggests three "salted" versions to demonstrate i
    git clone https://github.com/yourusername/password-cracking-visualizer.git
    cd password-cracking-visualizer
    ```
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+3. **Set Up Environment Variables**
+   Create a .env.local file in the root directory and add the following:
+   ```env
+   NEXT_PUBLIC_AWS_REGION=your-aws-region
+   NEXT_PUBLIC_API_BASE_URL=https://your-api-gateway-url.com
+   ```
+4. **Run the Application**
+   ```bash
+   npm run dev
+   ```
+   The app will be available at http://localhost:3000.
+
+## 📚 Usage Guide
+   **Hashing a Password**: Navigate to the "Hash Your Password" page, enter a password, choose a hashing algorithm, and click "Hash Password" to see the result.
+   **Cracking a Password**: Go to the "Crack Your Password" page, enter a hash, choose the algorithm, and click "Crack Password" to simulate the cracking process.
+   **Salting Suggestions**: Once a password is cracked, observe the salted suggestions for a more secure password.
+
+🎨 Screenshots
+   Hash Generator
+   
+   
+   Password Cracker
+
+
+## 🧩 Contributing
+   Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
+
+##🔍 License
+   This project is licensed under the MIT License. See the LICENSE file for more information.
+
+##📬 Contact
+   For any inquiries or feedback, feel free to reach out at rahul4nair35@gmail.com
+
+
