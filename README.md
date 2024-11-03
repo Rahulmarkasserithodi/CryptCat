@@ -90,15 +90,16 @@ For cracked passwords, the app suggests three "salted" versions to demonstrate i
    The app will be available at http://localhost:3000.
 
 ## 📚 Usage Guide
-   **Hashing a Password**: Navigate to the "Hash Your Password" page, enter a password, choose a hashing algorithm, and click "Hash Password" to see the result.
-   **Cracking a Password**: Go to the "Crack Your Password" page, enter a hash, choose the algorithm, and click "Crack Password" to simulate the cracking process.
-   **Salting Suggestions**: Once a password is cracked, observe the salted suggestions for a more secure password.
+  1. **Hashing a Password**: Navigate to the "Hash Your Password" page, enter a password, choose a hashing algorithm, and click "Hash Password" to see the result.
+  2. **Cracking a Password**: Go to the "Crack Your Password" page, enter a hash, choose the algorithm, and click "Crack Password" to simulate the cracking process.
+  3. **Salting Suggestions**: Once a password is cracked, observe the salted suggestions for a more secure password.
+   
 
 ## 🎨 Screenshots
-   [Hash Generator](https://github.com/Rahulmarkasserithodi/CryptCat/blob/main/public/imgs/Hash.png)
+   ![Hash Generator](https://github.com/Rahulmarkasserithodi/CryptCat/blob/main/public/imgs/Hash.png)
    
    
-   [Password Cracker](https://github.com/Rahulmarkasserithodi/CryptCat/blob/main/public/imgs/Crack.png)
+   ![Password Cracker](https://github.com/Rahulmarkasserithodi/CryptCat/blob/main/public/imgs/Crack.png)
 
 
 ## 🧩 Contributing
