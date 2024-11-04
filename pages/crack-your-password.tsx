@@ -18,6 +18,7 @@ const CrackYourPassword: React.FC = () => {
   const [pollCount, setPollCount] = useState(0);
   const [saltedSuggestions, setSaltedSuggestions] = useState<string[]>([]);
   const [isStrongPassword, setIsStrongPassword] = useState(false);
+  const [timeTaken, setTimeTaken] = useState<number | null>(null); // State to track time taken
   const maxPollingTime = 6 * 60 * 1000;
   const pollingInterval = 5000;
 
@@ -30,6 +31,7 @@ const CrackYourPassword: React.FC = () => {
     setPollCount(0);
     setSaltedSuggestions([]);
     setIsStrongPassword(false);
+    setTimeTaken(null);
 
     try {
       const response = await axios.post(
@@ -71,6 +73,7 @@ const CrackYourPassword: React.FC = () => {
       if (response.data.status === "COMPLETED") {
         const crackedPassword = response.data.result;
         setResult(crackedPassword);
+        setTimeTaken(Math.floor(elapsedTime / 1000)); // Set time taken in seconds
         setProgress(100);
         setLoading(false);
         generateSaltedSuggestions(crackedPassword);
@@ -272,6 +275,11 @@ const CrackYourPassword: React.FC = () => {
                   Cracked Password:{" "}
                   <span style={{ color: "#4caf50" }}>{result}</span>
                 </div>
+                {timeTaken && (
+                  <div style={{ marginTop: "10px", fontWeight: "bold" }}>
+                    Time Taken to Crack: {timeTaken} seconds
+                  </div>
+                )}
                 <div style={{ marginTop: "20px" }}>
                   Your password is bland, weak, and vulnerable. Let's add some
                   salt.
